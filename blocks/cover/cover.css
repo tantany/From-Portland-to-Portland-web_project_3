@@ -1,0 +1,37 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__cover-bg/cover__cover-bg.css);
+@import url(./__container/cover__container.css);
+@import url(./__wrapper/cover__wrapper.css);
+
+.cover {
+  padding-top: 103px;
+  padding-bottom: 0;
+  padding-left: calc(50% - 592px);
+  padding-right: calc(50% - 592px);
+  position: relative;
+}
+
+.cover:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding-top: 83px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding-top: 116px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    padding-top: 73px;
+  }
+}

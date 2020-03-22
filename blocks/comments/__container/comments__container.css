@@ -1,0 +1,13 @@
+.comments__container {
+  display: flex;
+  align-items: stretch;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container {
+    flex-wrap: wrap;
+  }
+}

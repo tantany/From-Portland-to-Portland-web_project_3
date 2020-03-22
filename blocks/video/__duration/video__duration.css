@@ -1,0 +1,27 @@
+.video__duration {
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  color: #FFF;
+  text-align: start;
+  padding: 0;
+  margin: 0 0 0 30px;
+  height: calc(100% - 30px - 30px - 158px);
+  min-height: 36px;
+  display: flex;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .video__duration {
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    height: calc(100% - 173px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .video__duration {
+    height: 60px;
+  }
+}

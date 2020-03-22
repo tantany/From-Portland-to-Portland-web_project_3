@@ -1,20 +1,15 @@
 # Project 3: From Portland to Portland
+## Practicum by Yandex Web Course
+version: 1.0
+------
+This project summerizes the topic "Adaptive Web Design and Working with Layouts".
+------
+### Here are the course subjects that were incorporated into the project:
+1. Working with a design on Figma
+2. Grid Layout
+3. Developing a web interface for different devices
+4. Branching on Git
 
-### Overview
-* Intro
-* Figma
-* Images
-
-**Intro**
-
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
-
-**Figma**
-
-* [Link to the project on Figma](https://www.figma.com/file/lNsn9aE1Be6bvg9FeAzRXT/Sprint-3-From-Portland-to-Portland-desktop-mobile?node-id=0%3A1)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+### Languages:
+- HTML
+- CSS

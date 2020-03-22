@@ -1,0 +1,17 @@
+.video__container {
+  position: relative;
+  flex: 1;
+  margin-right: 18px;
+  display: flex;
+}
+
+.video__container:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .video__container {
+    min-width: 250px;
+    margin: 0;
+  }
+}

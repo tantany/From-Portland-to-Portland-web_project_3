@@ -1,0 +1,35 @@
+@import url(./__item/photo-grid__item.css);
+@import url(./__container/photo-grid__container.css);
+
+.photo-grid {
+  padding-top: 82px;
+  padding-bottom: 0;
+  padding-right: calc(50% - 592px); /*((100% - (284px * 4 + 16px * 3)) / 2)*/
+  padding-left: calc(50% - 592px);
+}
+
+/*we don't need the 1280px media quary since the padding are equal to 48px at this point automatically*/
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-top: 102px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 93px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-top: 72px;
+  }
+}

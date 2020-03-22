@@ -1,0 +1,34 @@
+.video__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.08;
+  color: #FFF;
+  text-align: start;
+  max-width: 322px;
+  margin: 0 0 0 30px;
+  height: 91px;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__title {
+    font-size: calc(3.5vw);
+    height: calc(100% - 162px);
+    min-height: 71px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__title {
+    font-size: calc(3.125vw);
+    height: fit-content;
+    min-height: 0;
+    max-width: 270px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .video__title {
+    font-size: 24px;
+
+  }
+}
