@@ -1,0 +1,12 @@
+.intro__list-item {
+  list-style: none;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .intro__list-item {
+    font-size: 12px;
+    line-height: 1.55;
+  }
+}

@@ -8,7 +8,7 @@ This project summerizes the topic "Adaptive Web Design and Working with Layouts"
 1. Working with a design on Figma
 2. Grid Layout
 3. Developing a web interface for different devices
-4. Branching on Git
+4. Branching on Git.
 
 ### Languages:
 - HTML

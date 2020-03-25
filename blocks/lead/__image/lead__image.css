@@ -4,11 +4,6 @@
   display: block;
 }
 
-.lead__image:hover {
-  background-color: #C4C4C4;
-  opacity: 0.5;
-}
-
 @media screen and (max-width: 768px) {
   .lead__image {
     margin-top: 33px;

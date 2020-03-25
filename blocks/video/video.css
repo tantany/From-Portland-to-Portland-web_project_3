@@ -1,30 +1,25 @@
-@import url(./__container/video__container.css);
 @import url(./__item/video__item.css);
 @import url(./__icon-play/video__icon-play.css);
 @import url(./__duration/video__duration.css);
 @import url(./__title/video__title.css);
 @import url(./__subtitle/video__subtitle.css);
 @import url(./__item-bg/video__item-bg.css);
-@import url(./__wrapper/video__wrapper.css);
+@import url(./__list/video__list.css);
+@import url(./__list-item/video__list-item.css);
 
 .video {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 102px 128px 0;
+  max-width: 1200px;
+  margin: auto;
 }
 
 @media screen and (max-width: 1280px) {
   .video {
     padding-left: 48px;
     padding-right: 48px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .video {
-    padding-left: calc(50% - 464px);
-    padding-right: calc(50% - 464px);
   }
 }
 
@@ -41,12 +36,5 @@
     padding-top: 73px;
     padding-left: 16px;
     padding-right: 16px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .video {
-    padding-right: calc(50% - 592px);
-    padding-left: calc(50% - 592px);
   }
 }

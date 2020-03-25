@@ -4,20 +4,6 @@
   line-height: 30px;
   color: #FFF;
   margin: 0;
-  margin-bottom: 23px;
-  align-self: flex-start;
-  flex: 1;
-}
-
-.place__paragraph:last-of-type {
-  margin: 0;
-}
-
-
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    margin-bottom: 40px;
-  }
 }
 
 @media screen and (max-width: 425px) {
@@ -25,7 +11,5 @@
     flex-basis: 100%;
     font-size: 16px;
     line-height: 27px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 }

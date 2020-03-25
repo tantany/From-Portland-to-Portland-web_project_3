@@ -22,6 +22,6 @@
     font-size: 32px;
     line-height: 35px;
     margin-top: calc(24.5vw); /* 104px */
-    height: calc(18.8vw); /* 80px */
+    min-height: 58px;
   }
 }

@@ -1,0 +1,30 @@
+.place__paragraph-list {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFF;
+  margin: 0;
+  margin-bottom: 23px;
+  align-self: flex-start;
+  flex: 1;
+}
+
+.place__paragraph-list:last-of-type {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+  .place__paragraph-list {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph-list {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

@@ -4,8 +4,12 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__url/place__url.css);
 @import url(./__website/place__website.css);
+@import url(./__list-item/place__list-item.css);
+@import url(./__paragraph-list/place__paragraph-list.css);
+@import url(./__paragraph-item/place__paragraph-item.css);
 
 .place {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   padding-top: 72px;
@@ -19,7 +23,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    padding-top: 90px;
+    padding-top: 89px;
   }
 }
 

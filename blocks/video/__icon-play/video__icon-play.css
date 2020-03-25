@@ -1,19 +1,22 @@
 .video__icon-play {
   margin-top: 30px;
   margin-left: 30px;
+  height: 41px;
+  width: 41px;
 }
 
 @media screen and (max-width: 768px) {
   .video__icon-play {
-    margin-top: 25px;
-    margin-left: 25px;
-    height: 20%;
+    margin-top: 24px;
+    margin-left: 24px;
+    height: calc(5.3vw);
+    width: calc(5.3vw);
   }
 }
 
 @media screen and (max-width: 425px) {
   .video__icon-play {
-    margin-top: 6.4vw;
-    margin-left: 6.4vw;
+    height: 41px;
+    width: 41px;
   }
 }

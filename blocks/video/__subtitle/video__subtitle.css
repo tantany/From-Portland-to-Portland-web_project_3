@@ -4,18 +4,26 @@
   line-height: 1.07;
   color: #FFF;
   text-align: start;
-  margin: 0 0 0 30px;
+  margin: 18px 0 30px 30px;
+}
+
+@media screen and (max-width: 1028px) {
+  .video__subtitle {
+    margin-bottom: 35px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .video__subtitle {
     margin-top: 12px;
+    margin-left: 24px;
+    margin-bottom: 24px;
   }
 }
 
 
 @media screen and (max-width: 425px) {
   .video__subtitle {
-    margin-top: 0;
+    margin-top: 4px;
   }
 }

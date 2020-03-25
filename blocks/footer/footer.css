@@ -1,15 +1,19 @@
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 @import url(./__list/footer__list.css);
+@import url(./__list-item/footer__list-item.css);
 
 .footer {
-  padding-top: 160px;
   justify-content: space-between;
   align-items: flex-end;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 160px;
   padding-left: 128px;
   padding-right: 128px;
+  padding-bottom: 48px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 @media screen and (max-width: 1280px) {
