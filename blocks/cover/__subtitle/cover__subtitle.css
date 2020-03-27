@@ -1,6 +1,7 @@
 .cover__subtitle {
-  max-width: 382px;
+  max-width: 340px;
   margin: 0;
+  margin-top: 134px;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.44;
@@ -8,16 +9,16 @@
   color: #FFF;
 }
 
-.cover__subtitle:first-of-type {
-  margin-top: 134px;
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    margin-top: 181px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    font-size: calc(2.3vw);
-  }
-  .cover__subtitle:first-of-type {
-    margin-top: calc(16.5vw);/* 127px; */
+    margin-top: 0;
+    margin-bottom: 40px;
   }
 }
 
@@ -25,8 +26,9 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 17px;
-  }
-  .cover__subtitle:first-of-type {
+    max-width: 250px;
     margin-top: 7px;
+    margin-bottom: 28px;
+    min-height: 20%;
   }
 }

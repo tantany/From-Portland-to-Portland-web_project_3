@@ -29,15 +29,15 @@
     padding-top: 116px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-bottom: 116px;
+    padding-bottom: 100px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .comments {
-    padding-top: 73px;
+    padding-top: 77px;
     padding-left: 16px;
     padding-right: 16px;
-    padding-bottom: 73px;
+    padding-bottom: calc(144px - 25%);
   }
 }

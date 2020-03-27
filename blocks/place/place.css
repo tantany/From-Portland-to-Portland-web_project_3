@@ -5,8 +5,7 @@
 @import url(./__url/place__url.css);
 @import url(./__website/place__website.css);
 @import url(./__list-item/place__list-item.css);
-@import url(./__paragraph-list/place__paragraph-list.css);
-@import url(./__paragraph-item/place__paragraph-item.css);
+@import url(./__paragraphs/place__paragraphs.css);
 
 .place {
   list-style: none;

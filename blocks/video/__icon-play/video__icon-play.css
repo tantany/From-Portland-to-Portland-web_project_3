@@ -18,5 +18,6 @@
   .video__icon-play {
     height: 41px;
     width: 41px;
+    margin-left: calc(20% - 44px);
   }
 }

@@ -15,12 +15,12 @@
 
 @media screen and (max-width: 768px) {
   .cover__cover-bg {
-    height: calc(65.1vw); /* 500px */
+    height: 500px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover__cover-bg {
-    height: calc(64vw); /* 272px */
+    height: calc(72.5vw); /* 272px */
   }
 }

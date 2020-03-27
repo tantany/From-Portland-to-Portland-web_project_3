@@ -1,10 +1,10 @@
 .lead__image {
-  width: 100%;
+  width: 100%; /* I changed the width in the lead block itself */
   margin: 67px auto 0;
   display: block;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { /* I'm sorry, but I didn't understand your comment */
   .lead__image {
     margin-top: 33px;
   }

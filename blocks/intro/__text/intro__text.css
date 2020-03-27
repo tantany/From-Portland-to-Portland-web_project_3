@@ -4,11 +4,14 @@
   line-height: 24px;
   color: #FFF;
   max-width: 680px;
+  margin: 0;
+  margin-bottom: 24px;
 }
 
 @media screen and (max-width: 768px) {
   .intro__text {
     max-width: 100%;
+    margin-bottom: 25px;
   }
 }
 
@@ -16,5 +19,6 @@
   .intro__text {
     font-size: 16px;
     line-height: 27px;
+    margin-bottom: calc(143px - 33%);
   }
 }

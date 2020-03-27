@@ -1,0 +1,13 @@
+.place__paragraphs {
+  margin: 0;
+  align-items: flex-start;
+  flex: 1;
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraphs {
+    flex-basis: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

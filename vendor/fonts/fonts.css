@@ -9,3 +9,9 @@
   src: url(./Inter-Bold.woff);
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "Inter";
+  src: url(./Inter-ExtraBold.woff.woff);
+  font-weight: 900;
+}

@@ -1,5 +1,5 @@
 .video__title {
-  font-weight: bold;
+  font-weight: 900;
   font-size: 36px;
   line-height: 1.08;
   color: #FFF;
@@ -13,7 +13,7 @@
   .video__title {
     min-height: 0;
     max-width: 270px;
-    margin-left: 24px;
+    margin-left: calc(20% - 44px);
     font-size: 24px;
   }
 }
