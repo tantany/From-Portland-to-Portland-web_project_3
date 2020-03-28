@@ -4,7 +4,7 @@
   display: block;
 }
 
-@media screen and (max-width: 768px) { /* I'm sorry, but I didn't understand your comment */
+@media screen and (max-width: 425px) { /* note to myself - there is a change here */
   .lead__image {
     margin-top: 33px;
   }
