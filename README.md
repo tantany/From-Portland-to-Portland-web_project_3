@@ -10,6 +10,6 @@ This project summerizes the topic "Adaptive Web Design and Working with Layouts"
 3. Developing a web interface for different devices
 4. Branching on Git.
 
-### Languages:
+### The site was build using the languages:
 - HTML
 - CSS
